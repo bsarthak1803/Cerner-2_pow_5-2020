@@ -1,10 +1,8 @@
 --cerner_2^5_2020
---https://tio.run/#haskell to run the program (provide required inputs in the input section)
 putTodo :: (Int, String) -> IO ()
 putTodo (n, todo) = putStrLn (show n ++ ": " ++ todo)
 prompt :: [String] -> IO ()
 prompt todos = do
-    putStrLn ""
     putStrLn "Current TODO list:"
     mapM_ putTodo (zip [0..] todos)
     command <- getLine
