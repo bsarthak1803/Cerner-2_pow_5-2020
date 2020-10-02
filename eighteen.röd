@@ -1,0 +1,7 @@
+#!cerner_2^5_2020
+#!https://tio.run/#roda to run
+main {
+	primes := [2]
+	seq 3, 100 | { primes += i if [ i % p != 0 ] for p in primes } for i
+	print p for p in primes
+}
