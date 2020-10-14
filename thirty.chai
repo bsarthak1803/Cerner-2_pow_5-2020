@@ -1,0 +1,15 @@
+#please remove comments(lines 1-3) before execution
+#can be run at https://modiscript.netlify.app/
+#cerner_2^5_2020
+Mitrooon
+Desh 5 hai
+Vachan 1 hai
+Ek 1 hai
+bhaiyo AUR behno "cerner_2^5_2020"
+jab tak Ek Desh se zyada hai {
+		Vachan Vachan taimes 2 hai
+		Desh Desh substract 1 hai
+	}
+bhaiyo AUR behno vachan
+
+Acche din aa gaye
